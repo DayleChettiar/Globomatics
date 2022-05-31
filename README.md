@@ -1,2 +1,3 @@
 # Globomatics
-Globomatics Bike Registry System
+This is Globomatics Bike Registry System
+- A sample Spring Angular Project 
