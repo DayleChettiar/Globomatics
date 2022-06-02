@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "b9424677-c1c4-45e9-bbb0-aa3564c97e68",
+		"name": "Globomatics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllBikes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/bikes"
+			},
+			"response": []
+		}
+	]
+}
