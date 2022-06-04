@@ -1,9 +1,15 @@
 package com.globomatics.bike.models;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
+@Entity
 public class Bike {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
     private String name;
     private String email;
     private String phone;
@@ -12,6 +18,14 @@ public class Bike {
     private BigDecimal purchasePrice;
     private Date purchaseDate;
     private boolean contact;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     // Adding accessors and mutators
     public String getName() {
