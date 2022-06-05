@@ -13,6 +13,33 @@
 				"url": "http://localhost:8080/api/v1/bikes"
 			},
 			"response": []
+		},
+		{
+			"name": "GetBikeById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/bikes/3"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateBike",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"id\": 4,\r\n    \"name\": \"Dresnek Warren\", \r\n    \"email\": \"dresnek@bikes.com\", \r\n    \"phone\": \"5546-891-5555\", \r\n    \"model\": \"Globo Time Trial Blade XVS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/v1/bikes"
+			},
+			"response": []
 		}
 	]
 }
